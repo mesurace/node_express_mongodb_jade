@@ -1,0 +1,15 @@
+h1= title
+form(action="/upload", method="post", enctype="multipart/form-data")
+
+    input#inputUserName(type='text', name='username', placeholder='Username')
+    input#inputUserEmail(type='text', name='email', placeholder='Email')
+    br
+    input#inputUserFullname(type='text', name='fullname', placeholder='Full Name')
+    input#inputUserAge(type='text', name='age', placeholder='Age')
+    br
+    input#inputUserLocation(type='text', name='address', placeholder='Address')
+    input#inputUserGender(type='text', name='gender', placeholder='gender')
+    br
+    input(type="file", name="displayImage")
+    br
+    input(type="submit", name="submit")
